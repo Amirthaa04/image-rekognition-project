@@ -45,3 +45,21 @@ This project demonstrates how to perform object and scene detection on images st
    ```bash
    git clone https://github.com/your-username/image-rekognition-project.git
    cd image-rekognition-project
+
+4. **Update rekognition.py**
+   photo = 'image1.jpg'
+   bucket = 'image-rekognition-project-04072025'
+   
+5.**Run the script**
+   python3 rekognition.py
+
+
+## 🛡️ IAM Permissions Required
+Attach these policies to your IAM user or role:
+- AmazonRekognitionFullAccess
+- AmazonS3ReadOnlyAccess
+
+## 📋 Sample Output
+![image](https://github.com/user-attachments/assets/a7130165-8623-4004-ba28-a0ed6af30f3d)
+
+  
