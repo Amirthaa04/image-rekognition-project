@@ -31,7 +31,9 @@ This project demonstrates how to perform object and scene detection on images st
     photo = 'image1.jpg'
     bucket = 'Your_Bucket_Name'
 5.**Run the script:**
-   python3 rekognition.py 
+   python3 rekognition.py
+
+   
 
 🛡️ IAM Permissions Required
 Attach these AWS-managed policies to your IAM user or role:
